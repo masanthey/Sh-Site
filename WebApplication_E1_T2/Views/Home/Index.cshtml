@@ -1,0 +1,114 @@
+﻿@model HomeContentViewModel
+@{
+	ViewData["Title"] = "Index";
+	ViewBag.Title = Model.textField.Title;
+	ViewBag.Description = Model.textField.SubTitle;
+	ViewBag.KeyWords = Model.textField.MetaKeywords;
+
+}
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h1>
+				@Model.mainBanner.Title
+			</h1>
+			<p>@Model.mainBanner.SubTitle</p> 
+		</header>
+		<p>@Model.mainBanner.Text</p>
+		<ul class="actions">
+			<li><a href="#" class="button big">Learn More</a></li>
+		</ul>
+	</div>
+	<span class="image object">
+		<img src="~/images/@Model.mainBanner.TitleImagePath" alt="" />
+	</span>
+</section>
+
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Наши преимущества</h2>
+	</header>
+	<div class="features">
+		<article>
+			<span class="icon fa-gem"></span>
+			<div class="content">
+				<h3>Качественно</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-paper-plane"></span>
+			<div class="content">
+				<h3>Быстро</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-rocket"></span>
+			<div class="content">
+				<h3>Моментяльный отклик</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-signal"></span>
+			<div class="content">
+				<h3>Гарантированный рост</h3>
+				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			</div>
+		</article>
+	</div>
+</section>
+
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Ipsum sed dolor</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+			<h3>Interdum aenean</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+			<h3>Nulla amet dolore</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+			<h3>Tempus ullamcorper</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+			<h3>Sed etiam facilis</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+			<h3>Feugiat lorem aenean</h3>
+			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+		</article>
+	</div>
+</section>
